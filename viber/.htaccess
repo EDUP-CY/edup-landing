@@ -1,0 +1,12 @@
+# 1. Prevent anyone from viewing a list of files in this folder
+Options -Indexes
+
+# 2. Tell search engines and AI bots not to index, cache, or train on these images
+<IfModule mod_headers.c>
+    Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai"
+</IfModule>
+
+# 3. Allow email clients (Gmail/Outlook) to load the images cleanly
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>

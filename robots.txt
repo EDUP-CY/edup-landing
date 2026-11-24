@@ -1,0 +1,17 @@
+User-agent: GPTBot
+Disallow: /viber/
+
+User-agent: Google-Extended
+Disallow: /viber/
+
+User-agent: ClaudeBot
+Disallow: /viber/
+
+User-agent: CCBot
+Disallow: /viber/
+
+User-agent: Bytespider
+Disallow: /viber/
+
+User-agent: *
+Disallow: /viber/
